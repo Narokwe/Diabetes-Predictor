@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h1>Welcome to the Diabetes Prediction App</h1>
+    <form action="/predict" method="post">
+        <label for="Pregnancies">Pregnancies:</label>
+        <input type="text" name="Pregnancies" placeholder="Enter number of Pregnancies" required><br><br>
+
+        <label for="Glucose">Glucose:</label>
+        <input type="text" name="Glucose" placeholder="Enter Glucose level" required><br><br>
+
+        <label for="BloodPressure">Blood Pressure:</label>
+        <input type="text" name="BloodPressure" placeholder="Enter Blood Pressure" required><br><br>
+
+        <label for="SkinThickness">Skin Thickness:</label>
+        <input type="text" name="SkinThickness" placeholder="Enter Skin Thickness" required><br><br>
+
+        <label for="Insulin">Insulin:</label>
+        <input type="text" name="Insulin" placeholder="Enter Insulin level" required><br><br>
+
+        <label for="BMI">BMI:</label>
+        <input type="text" name="BMI" placeholder="Enter BMI" required><br><br>
+
+        <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function:</label>
+        <input type="text" name="DiabetesPedigreeFunction" placeholder="Enter Diabetes Pedigree Function" required><br><br>
+
+        <label for="Age">Age:</label>
+        <input type="text" name="Age" placeholder="Enter Age" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
